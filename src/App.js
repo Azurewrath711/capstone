@@ -7,7 +7,7 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Gallery from "./pages/gallery"
 import Services from "./pages/services"
-import ContUs from "./components/contactus";
+import ContactSection from "./components/contactus";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <div>
-        <ContUs/>
+        <ContactSection/>
       </div>
     </div>
   );
